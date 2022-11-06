@@ -1,0 +1,23 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Employee tracker using Node and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dopecello/employee-tracker.git"
+  },
+  "author": "William Locke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dopecello/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/dopecello/employee-tracker#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.0.0-rc.1"
+  }
+}
