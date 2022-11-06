@@ -7,6 +7,7 @@ VALUES
     ('Information Technology'),
     ('Human Resources');
 
+-- role seeds
 INSERT INTO emp_role (title, salary, dpt_id)
 VALUES
   ('Sales Lead', '75000', 3),
@@ -20,7 +21,8 @@ VALUES
   ('Graphic Designer', '60000', 2),
   ('HR Manager', '90000', 5);
     
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
+-- employee seeds 
+INSERT INTO employee (first_name, last_name, role_id, mgr_id)
 VALUES
   ('Robert', 'Locke', 2, NULL),
   ('Kristina', 'Schaberg', 1, NULL),
