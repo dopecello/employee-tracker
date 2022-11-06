@@ -1,3 +1,3 @@
-const menu = require("./lib/menu/menu");
+const { mainMenu } = require("./lib/menu/menu");
 
-menu.mainMenu();
+mainMenu();

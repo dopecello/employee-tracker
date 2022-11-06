@@ -4,7 +4,6 @@
   "description": "Employee tracker using Node and MySQL",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "repository": {
@@ -18,6 +17,7 @@
   },
   "homepage": "https://github.com/dopecello/employee-tracker#readme",
   "dependencies": {
+    "console.table": "^0.10.0",
     "inquirer": "^8.2.4",
     "mysql2": "^3.0.0-rc.1"
   }
